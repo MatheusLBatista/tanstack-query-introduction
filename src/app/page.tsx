@@ -13,7 +13,7 @@ export default function Home() {
     isLoading: postsIsLoading,
     isError:   postsIsError,
     error:     postsError,
-    refetch:   postsRefetch
+    refetch:   postsRefetch  
   } = useQuery({ queryKey: ["listaPostsPaginaInicial"],
     queryFn: async () => {
 
